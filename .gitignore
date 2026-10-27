@@ -1,0 +1,13 @@
+
+.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+
+# Exclude the synthetic dataset from the public repository
+data/sensor_calibration.csv
+
+# Exclude the unused model
+models/random_forest_pipeline.joblib
